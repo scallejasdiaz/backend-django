@@ -1,16 +1,16 @@
-# Backend con Django – Ejemplos Académicos
+# Backend con Django – Ejemplos Prácticos
 
-Este repositorio contiene el material práctico de la asignatura **Programación Backend (TI2041)**, desarrollado en **Django**, para el apoyo de clases, ejercicios guiados y evaluaciones.  
-El propósito es entregar a los estudiantes una base sólida en el uso de **frameworks backend modernos**, con foco en **buenas prácticas, seguridad y escalabilidad**.
+Este repositorio ofrece una colección de ejemplos prácticos y progresivos desarrollados en **Django**, diseñados para cualquier persona interesada en aprender y mejorar sus habilidades en desarrollo backend.  
+El objetivo es proporcionar una base sólida en el uso de **frameworks backend modernos**, con énfasis en **buenas prácticas, seguridad y escalabilidad**.
 
 ---
 
 ## 🎯 Objetivos del Repositorio
-- Comprender los fundamentos del desarrollo **backend con Django**.
+- Explorar los fundamentos del desarrollo **backend con Django**.
 - Aplicar el patrón **MVT (Model-View-Template)** en proyectos reales.
-- Practicar de forma progresiva con ejemplos **desde lo básico hasta lo avanzado**.
-- Integrar conceptos académicos con **ejercicios prácticos** en clase.
-- Contar con un repositorio de referencia para proyectos y evaluaciones.
+- Practicar con ejemplos que van **desde lo básico hasta lo avanzado**.
+- Facilitar el aprendizaje a través de ejemplos prácticos y claros.
+- Contar con un repositorio de referencia para proyectos personales y profesionales.
 
 ---
 
@@ -29,7 +29,7 @@ backend-django/
 ├── unidad3/                     # Unidad III – API RESTful con DRF
 │   └── (en construcción)
 │
-└── evaluaciones/                # Evaluaciones sumativas y formativas
+└── evaluaciones/                # Ejemplos adicionales y pruebas
     └── (en construcción)
 ```
 
@@ -54,7 +54,7 @@ backend-django/
   - [e08_listas_condicionales_dtl](./unidad1/ejemplos/e08_listas_condicionales_dtl/README.md) → Listas y condicionales en DTL  
   - [e09_redireccion_basica](./unidad1/ejemplos/e09_redireccion_basica/README.md) → Redirecciones con `redirect()`  
 
-Cada ejemplo cuenta con su propio `README.md` explicativo.
+Cada ejemplo incluye su propio `README.md` con explicaciones detalladas.
 
 ---
 
@@ -70,7 +70,7 @@ Cada ejemplo cuenta con su propio `README.md` explicativo.
    ```bash
    python -m venv .venv
    source .venv/bin/activate   # macOS/Linux
-   .venv\Scripts\activate    # Windows
+   .venv\Scripts\activate      # Windows
 
    pip install "Django>=5.0,<6.0"
    ```
@@ -84,7 +84,7 @@ Cada ejemplo cuenta con su propio `README.md` explicativo.
    python manage.py runserver
    ```
 
-5. Navegar en `http://127.0.0.1:8000/` para probar.
+5. Navegar a `http://127.0.0.1:8000/` para probar.
 
 ---
 
@@ -96,24 +96,3 @@ Cada ejemplo cuenta con su propio `README.md` explicativo.
 - Jamro, A. (2022). *Django 4 By Example*. Packt Publishing.  
 
 ---
-
-## 👨‍🏫 Contexto Académico
-
-Este repositorio es parte del material docente de la asignatura **Programación Backend** en la carrera **Ingeniería en Informática**.  
-Busca no solo entregar código, sino también **formar criterio de ingeniería**, enfatizando en:  
-
-- Seguridad de la configuración (`DEBUG`, `SECRET_KEY`, `ALLOWED_HOSTS`).  
-- Organización modular de proyectos.  
-- Documentación y uso responsable de IA en la elaboración de tareas y evaluaciones.  
-
----
-
-## 🧪 Uso responsable de IA
-
-De acuerdo con la normativa vigente, el uso de **IA generativa** debe:  
-- Ser declarado en cada entrega.  
-- No superar el **50% del trabajo total**.  
-- Complementarse siempre con defensa oral o demostración práctica.  
-
----
-
