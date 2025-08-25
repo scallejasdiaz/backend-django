@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <body>
+    <h1>Cursos</h1>
+    {% if cursos %}
+      <ul>
+        {% for c in cursos %}
+          <li>{{ c }}</li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No hay cursos disponibles.</p>
+    {% endif %}
+  </body>
+</html>
