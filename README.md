@@ -44,15 +44,15 @@ backend-django/
   - Vista básica con *Hola Mundo desde Django*.  
 
 - **Ejemplos prácticos (e01–e09):**  
-  - [e01_idioma_timezone](./unidad1/u1_playground/e01_idioma_timezone/README.md) → Idioma y zona horaria en `settings.py`  
-  - [e02_saludo_param](./unidad1/u1_playground/e02_saludo_param/README.md) → Rutas dinámicas con parámetros  
-  - [e03_httpresponse_html](./unidad1/u1_playground/e03_httpresponse_html/README.md) → `HttpResponse` con HTML básico  
-  - [e04_template_basico](./unidad1/u1_playground/e04_template_basico/README.md) → Template mínimo con `render()`  
-  - [e05_template_context](./unidad1/u1_playground/e05_template_context/README.md) → Contexto y variables en templates  
-  - [e06_urls_por_app_include](./unidad1/u1_playground/e06_urls_por_app_include/README.md) → Enrutamiento modular con `include()`  
-  - [e07_base_template_herencia](./unidad1/u1_playground/e07_base_template_herencia/README.md) → Herencia de templates (`extends` y `block`)  
-  - [e08_listas_condicionales_dtl](./unidad1/u1_playground/e08_listas_condicionales_dtl/README.md) → Listas y condicionales en DTL  
-  - [e09_redireccion_basica](./unidad1/u1_playground/e09_redireccion_basica/README.md) → Redirecciones con `redirect()`  
+  - [e01_idioma_timezone](./unidad1/u1_playground/e01_idioma_timezone/) → Idioma y zona horaria en `settings.py`  
+  - [e02_saludo_param](./unidad1/u1_playground/e02_saludo_param/) → Rutas dinámicas con parámetros  
+  - [e03_httpresponse_html](./unidad1/u1_playground/e03_httpresponse_html/) → `HttpResponse` con HTML básico  
+  - [e04_template_basico](./unidad1/u1_playground/e04_template_basico/) → Template mínimo con `render()`  
+  - [e05_template_context](./unidad1/u1_playground/e05_template_context/) → Contexto y variables en templates  
+  - [e06_urls_por_app_include](./unidad1/u1_playground/e06_urls_por_app_include/) → Enrutamiento modular con `include()`  
+  - [e07_base_template_herencia](./unidad1/u1_playground/e07_base_template_herencia/) → Herencia de templates (`extends` y `block`)  
+  - [e08_listas_condicionales_dtl](./unidad1/u1_playground/e08_listas_condicionales_dtl/) → Listas y condicionales en DTL  
+  - [e09_redireccion_basica](./unidad1/u1_playground/e09_redireccion_basica/) → Redirecciones con `redirect()`  
 
 Cada ejemplo incluye su propio `README.md` con explicaciones detalladas.
 
